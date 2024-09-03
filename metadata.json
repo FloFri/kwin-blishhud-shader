@@ -1,0 +1,16 @@
+{
+    "KPlugin": {
+        "Category": "Accessibility",
+        "Description": "Adds a shader to the BlishHUD window which makes black pixels transparent",
+        "EnabledByDefault": true,
+        "Id": "blishhud_shader",
+        "Authors": [
+                {
+                        "Email": "friedrich@hooster.de",
+                        "Name": "FloFri"
+                }
+        ],
+        "License": "GPL",
+        "Name": "BlishHUD Shader"
+    }
+}
