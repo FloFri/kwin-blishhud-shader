@@ -1,2 +1,4 @@
 qt5build
 build
+.vscode
+*.bak

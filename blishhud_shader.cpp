@@ -21,15 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "blishhud_shader.h"
 
-#include <QAction>
-#include <QFile>
 #include <kwinglutils.h>
-#include <kwinglplatform.h>
-#include <KGlobalAccel>
-#include <KLocalizedString>
-#include <QStandardPaths>
-
-#include <QMatrix4x4>
 
 namespace KWin
 {
