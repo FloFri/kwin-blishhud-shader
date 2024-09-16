@@ -19,15 +19,17 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 *********************************************************************/
 
-#ifndef KWIN_INVERT_H
-#define KWIN_INVERT_H
+#pragma once
 
 #include <QtGlobal>
 
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 #include <kwinoffscreeneffect.h>
+#include <kwinglutils.h>
 #else
 #include <effect/offscreeneffect.h>
+#include <effect/effecthandler.h>
+#include <opengl/glutils.h>
 #endif
 
 namespace KWin
@@ -79,5 +81,3 @@ inline int BlishHUDShader::requestedEffectChainPosition() const
 }
 
 } // namespace
-
-#endif

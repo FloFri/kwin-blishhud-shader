@@ -73,14 +73,10 @@ set(effect_SRCS
 
 kcoreaddons_add_plugin(kwin_effect_blishhud_shader SOURCES ${effect_SRCS} INSTALL_NAMESPACE "kwin/effects/plugins/")
 
-target_link_libraries(kwin_effect_blishhud_shader
-    Qt${QT_MAJOR_VERSION}::DBus
-    KF${QT_MAJOR_VERSION}::ConfigGui
-)
 if(${QT_MAJOR_VERSION} EQUAL 6)
     target_link_libraries(kwin_effect_blishhud_shader
             KWin::kwin
-            Qt${QT_MAJOR_VERSION}::CorePrivate
+            Qt${QT_MAJOR_VERSION}::Core
     )
 else()
     target_link_libraries(kwin_effect_blishhud_shader
