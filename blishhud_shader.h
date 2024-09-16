@@ -22,7 +22,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef KWIN_INVERT_H
 #define KWIN_INVERT_H
 
+#include <QtGlobal>
+
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 #include <kwinoffscreeneffect.h>
+#else
+#include <effect/offscreeneffect.h>
+#endif
 
 namespace KWin
 {

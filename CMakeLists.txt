@@ -66,6 +66,7 @@ find_package(XCB REQUIRED COMPONENTS XCB)
 find_package(KWinDBusInterface CONFIG REQUIRED)
 
 set(effect_SRCS
+    blishhud_shader.h
     blishhud_shader.cpp
     plugin.cpp
 )
