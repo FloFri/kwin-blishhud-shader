@@ -15,7 +15,7 @@ sudo apt install git cmake g++ gettext extra-cmake-modules qttools5-dev libqt5x1
 - Fedora based ::
 #+begin_src bash
 
-sudo dnf install git cmake gcc-c++ extra-cmake-modules kwin-devel qt6-qtbase-devel kf6-kconfigwidgets-devel kf6-kcmutils-devel libepoxy-devel wayland-devel
+sudo dnf install git cmake gcc-c++ extra-cmake-modules kwin-devel qt6-qtbase-devel kf6-kconfigwidgets-devel kf6-kcmutils-devel libepoxy-devel wayland-devel libdrm-devel
 
 #+end_src
 ** Building
